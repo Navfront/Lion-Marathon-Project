@@ -1,0 +1,21 @@
+{
+  "name": "lion-marathon-project",
+  "version": "1.0.0",
+  "description": "Marathon Project: 'Zaverstayu' 2022",
+  "main": "index.js",
+  "scripts": {
+    "test:stylelint": "stylelint project/style.css",
+    "test:eslint": "eslint project/script.js",
+    "test": "htmlhint project/index.html"
+  },
+  "keywords": [],
+  "author": "Nazhiganov A.V.",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "8.28.0",
+    "eslint-config-htmlacademy": "8.0.0",
+    "htmlhint": "1.1.4",
+    "stylelint": "14.15.0",
+    "stylelint-config-htmlacademy": "1.1.2"
+  }
+}
