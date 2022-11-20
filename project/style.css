@@ -83,6 +83,18 @@ html {
 .link {
   text-decoration: none;
   position: relative;
+  transition: ease 0.15s;
+}
+
+.burger {
+  transition: ease 0.15s;
+}
+
+.link:not(.link--active):hover,
+.link:not(.link--active):focus,
+.burger:hover,
+.burger:focus {
+  color: var(--color-forest);
 }
 
 .link--active::before {
@@ -181,10 +193,16 @@ html {
   background-color: var(--color-forest);
   box-shadow: -25px 0 50px rgba(0, 0, 0, 0.1), 25px -25px 50px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
+  transition: ease 0.15s;
 }
 
 .promo__button svg {
   padding-right: 20px;
+}
+
+.promo__button:hover,
+.promo__button:focus {
+  transform: scale(1.03);
 }
 
 .promo__description {
