@@ -9,7 +9,8 @@
 html {
   width: 100%;
   height: 100%;
-
+  margin: 0;
+  padding: 0;
   overflow: hidden;
   font-size: calc(5px + 1.85vmin);
   line-height: calc(10px + 1.7vmin);
@@ -22,6 +23,7 @@ html {
   height: 100%;
   font-weight: 400;
   background-color: var(--color-forest-dark);
+  overflow: hidden;
 }
 
 .visually-hidden {
