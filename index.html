@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preload" href="style.css" as="style" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>LION Marathon Project</title>
+  </head>
+  <body class="page">
+    <header class="page__header header">
+      <nav class="header__nav nav">
+        <a href="https://htmlacademy.ru/" class="logo"
+          ><img
+            class="logo__image"
+            srcset="img/logo/logo@2x.png 2x, img/logo/logo.png"
+            src="img/logo/logo.png"
+            alt="Логотип в виде прямоугольника и названия Nat Geo Wild"
+            height="60"
+            width="146"
+        /></a>
+        <ul class="nav__links-list list">
+          <li class="nav__item">
+            <a href="#" class="nav__link link link--active">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link link">About Us</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link link">Goals</a>
+          </li>
+        </ul>
+        <ul class="nav__user-nav-list user-navigation list">
+          <li class="user-navigation__item">
+            <a href="#" class="user-navigation__link link" aria-label="Search">
+              <svg class="svg" width="36" height="36">
+                <use xlink:href="img/sprite.svg#icon-search"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="user-navigation__item">
+            <a href="#" class="user-navigation__link link" aria-label="Account">
+              <svg class="svg" width="36" height="36">
+                <use xlink:href="img/sprite.svg#icon-account"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="user-navigation__item">
+            <button
+              type="button"
+              class="user-navigation__button button burger"
+              aria-label="User-menu"
+            >
+              <svg class="svg" width="36" height="36">
+                <use xlink:href="img/sprite.svg#icon-burger"></use>
+              </svg>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="page__main main">
+      <section class="promo">
+        <picture>
+          <source srcset="img/bg/bg@2x.webp 2x, img/bg/bg.webp" />
+          <source srcset="img/bg/bg@2x.jpg 2x, img/bg/bg.jpg" />
+          <img
+            class="promo__bg"
+            src="img/bg/bg.jpg"
+            alt="Фон с джунглями"
+            width="1980"
+            height="1080"
+          />
+        </picture>
+        <picture>
+          <source srcset="img/bg/lion@2x.png 2x, img/bg/lion.png" />
+          <img
+            class="promo__lion"
+            src="img/bg/lion.png"
+            alt="Львица лежит и смотрит в даль"
+            width="1980"
+            height="1080"
+          />
+        </picture>
+        <div class="promo__title-wrapper">
+          <svg class="promo__lion-rect" width="372" height="372">
+            <use xlink:href="img/sprite.svg#promo-rect"></use>
+          </svg>
+          <svg class="promo__lion-title" width="894" height="208">
+            <use xlink:href="img/sprite.svg#promo-lion"></use>
+          </svg>
+        </div>
+        <h1 class="visually-hidden">Nat Geo Wild: Why killed animals?</h1>
+
+        <div class="promo__controls">
+          <svg class="svg" width="81" height="99">
+            <use xlink:href="img/sprite.svg#icon-scroll"></use>
+          </svg>
+          <button
+            class="promo__button button"
+            data-url="https://youtu.be/8E1rITSQBeo"
+          >
+            <svg width="45" height="45">
+              <use xlink:href="img/sprite.svg#icon-play"></use>
+            </svg>
+            Watch The Movie
+          </button>
+        </div>
+        <div class="promo__description description">
+          <h2>Why killed animals</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam
+            feugiat aliquam amet, enim etiam mattis ac tortor. Diam nunc,
+            conguer
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="script.js" defer></script>
+  </body>
+</html>
