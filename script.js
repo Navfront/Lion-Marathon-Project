@@ -1,6 +1,6 @@
 const MOV_MULTIPLIER = 4000;
-const INITIAL_WRAPPER_TRANSFORM = [-57, -55];
-const INITIAL_RECT_TRANSFORM = [-50,-50];
+const INITIAL_WRAPPER_TRANSFORM = [-50, -53];
+const INITIAL_RECT_TRANSFORM = [-172,-46];
 
 const background = document.querySelector('.promo__bg');
 const titleWrapper = document.querySelector('.promo__title-wrapper');
