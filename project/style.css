@@ -10,6 +10,8 @@ html {
   width: 100%;
   height: 100%;
   overflow: hidden;
+  font-size: calc(5px + 1.85vmin);
+  line-height: calc(10px + 1.7vmin);
 }
 
 .page {
@@ -18,8 +20,6 @@ html {
   font-family: "Poppins", "Arial", sans-serif;
   height: 100%;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 30px;
   background-color: var(--color-forest-dark);
 }
 
@@ -78,7 +78,7 @@ html {
 
 .nav__link {
   font-weight: 500;
-  font-size: 25px;
+  font-size: inherit;
   line-height: 38px;
   color: var(--color-white);
 }
@@ -113,11 +113,11 @@ html {
 }
 
 .logo {
-  width: 200px;
+  width: 170px;
 }
 
 .user-navigation {
-  width: 230px;
+  width: 200px;
   display: flex;
   flex-wrap: wrap;
   justify-content: end;
@@ -220,7 +220,8 @@ html {
   width: 425px;
   padding: 20px;
   color: var(--color-text-op-80);
-  line-height: 30px;
+  line-height: 1.2rem;
+  font-size: 0.8rem;
 }
 
 .description h2 {
