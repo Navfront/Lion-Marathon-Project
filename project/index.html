@@ -22,32 +22,41 @@
             class="logo__image"
             src="img/logo/logo.png"
             alt="Логотип в виде прямоугольника и названия Nat Geo Wild"
+            height="60"
+            width="146"
         /></a>
-        <ul class="nav__links-list">
-          <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">About Us</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Goals</a></li>
+        <ul class="nav__links-list list">
+          <li class="nav__item">
+            <a href="#" class="nav__link link link--active">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link link">About Us</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link link">Goals</a>
+          </li>
         </ul>
-        <ul class="nav__user-nav-list user-navigation">
+        <ul class="nav__user-nav-list user-navigation list">
           <li class="user-navigation__item">
-            <a href="#" class="user-navigation__link">
-              Search
+            <a href="#" class="user-navigation__link link" aria-label="Search">
               <svg class="svg" width="36" height="36">
                 <use xlink:href="img/sprite.svg#icon-search"></use>
               </svg>
             </a>
           </li>
           <li class="user-navigation__item">
-            <a href="#" class="user-navigation__link">
-              Account
+            <a href="#" class="user-navigation__link link" aria-label="Account">
               <svg class="svg" width="36" height="36">
                 <use xlink:href="img/sprite.svg#icon-account"></use>
               </svg>
             </a>
           </li>
           <li class="user-navigation__item">
-            <button type="button" class="user-navigation__button button">
-              User-menu
+            <button
+              type="button"
+              class="user-navigation__button button"
+              aria-label="User-menu"
+            >
               <svg class="svg" width="36" height="36">
                 <use xlink:href="img/sprite.svg#icon-burger"></use>
               </svg>

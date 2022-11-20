@@ -1,3 +1,101 @@
-body {
+:root {
+  --color-white: #ffffff;
+  --color-forest: #406343;
+  --color-text-op-80: rgba(179, 179, 179, 0.8);
+}
+
+.page {
+  margin: 0;
+  position: relative;
   font-family: "Poppins", "Arial", sans-serif;
+  height: 100%;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.list {
+  margin: 0;
+  list-style: none;
+}
+
+.button {
+  padding: 0;
+  border: none;
+  color: var(--color-white);
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.page__header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+
+.header {
+  color: var(--color-white);
+  padding: 30px 45px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__links-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav__item {
+  padding: 5px 22.5px;
+}
+
+.nav__link {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 38px;
+  color: var(--color-white);
+}
+
+.link {
+  text-decoration: none;
+  position: relative;
+}
+
+.link--active::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  width: 100%;
+  height: 10px;
+  border-radius: 1px;
+  background-color: var(--color-forest);
+}
+
+.logo {
+  width: 200px;
+}
+
+.user-navigation {
+  width: 230px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+
+.user-navigation__item {
+  padding: 13px 15px;
+}
+
+.user-navigation__item:last-of-type {
+  padding-right: 0;
+}
+
+.user-navigation__link {
+  color: var(--color-white);
 }
