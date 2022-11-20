@@ -1,6 +1,7 @@
 :root {
   --color-white: #ffffff;
   --color-forest: #406343;
+  --color-forest-dark: #1c2e21;
   --color-yellow: #ffcc00;
   --color-text-op-80: rgba(179, 179, 179, 0.8);
 }
@@ -19,6 +20,7 @@ html {
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
+  background-color: var(--color-forest-dark);
 }
 
 .visually-hidden {
