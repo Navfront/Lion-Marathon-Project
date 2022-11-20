@@ -10,5 +10,8 @@
   "extends": "htmlacademy/vanilla",
   "rules": {
     // Additional rules...
-  }
+  },
+  "ignorePatterns": [
+    "deploy.js"
+  ]
 }
