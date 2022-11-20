@@ -85,9 +85,14 @@
             height="1080"
           />
         </picture>
-        <svg class="svg" width="894" height="208">
-          <use xlink:href="img/sprite.svg#promo-lion"></use>
-        </svg>
+        <div class="promo__title-wrapper">
+          <svg class="promo__lion-rect" width="372" height="372">
+            <use xlink:href="img/sprite.svg#promo-rect"></use>
+          </svg>
+          <svg class="promo__lion-title" width="894" height="208">
+            <use xlink:href="img/sprite.svg#promo-lion"></use>
+          </svg>
+        </div>
         <h1 class="visually-hidden">Nat Geo Wild: Why killed animals?</h1>
 
         <div class="promo__controls">
@@ -95,10 +100,10 @@
             <use xlink:href="img/sprite.svg#icon-scroll"></use>
           </svg>
           <button class="promo__button button">
-            Watch The Movie
-            <svg class="svg" width="45" height="45">
+            <svg width="45" height="45">
               <use xlink:href="img/sprite.svg#icon-play"></use>
             </svg>
+            Watch The Movie
           </button>
         </div>
         <div class="promo__description description">
