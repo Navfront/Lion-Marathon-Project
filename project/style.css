@@ -131,6 +131,10 @@ html {
   color: var(--color-white);
 }
 
+.promo {
+  overflow: hidden;
+}
+
 .promo__bg,
 .promo__lion {
   position: absolute;
@@ -153,27 +157,32 @@ html {
 }
 
 .promo__title-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   left: 50%;
   top: 50%;
   z-index: -98;
-  transform: translate(-57%, -55%);
+  transform: translate(-50%, -53%);
   color: var(--color-white);
+  width: 100%;
+  height: calc(60% + 16vmin);
 }
 
 .promo__lion-rect {
   position: absolute;
-  left: 6%;
-  top: 52%;
-  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  transform: translate(-172%, -46%);
   z-index: -96;
   color: var(--color-yellow);
 }
 
 .promo__lion-title {
+  transform: translateX(-3%);
   z-index: -95;
-  height: 50vh;
-  width: 46vw;
+  width: 100%;
 }
 
 .promo__controls {
